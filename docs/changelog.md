@@ -2,6 +2,33 @@
 title: Changelog
 ---
 
+### 3.0.7
+
+⭐ Include Font Files in Backup  
+⭐ Allow user to select backup options  
+⭐ Option to exclude files from repository (Repository config > 'excluded_files')  
+🐛 Fix deleting PGP key
+
+### 3.0.6
+
+🐛 Fix crash due to encrypted prefs
+
+### 3.0.5
+
+🐛 Fix crash if no icon is set in settings
+
+### 3.0.4
+
+⭐ Add description variable for video notes  
+⭐ Settings option to disable showing created note snack-bar  
+🐛 Fix corner size in compact notes list  
+🐛 Fix over-scrolling in headings list in right drawer
+
+### 3.0.3
+
+⭐ Option to back up and restore fonts  
+🐛 Fix skipping first image while downloading images
+
 ### 3.0.2
 
 📌 Increase minSDK to 25  
