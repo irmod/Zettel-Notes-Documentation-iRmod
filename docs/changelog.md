@@ -2,6 +2,75 @@
 title: Changelog
 ---
 
+### 3.0.7
+
+⭐ Include Font Files in Backup  
+⭐ Allow user to select backup options  
+⭐ Option to exclude files from repository (Repository config > 'excluded_files')  
+🐛 Fix deleting PGP key
+
+### 3.0.6
+
+🐛 Fix crash due to encrypted prefs
+
+### 3.0.5
+
+🐛 Fix crash if no icon is set in settings
+
+### 3.0.4
+
+⭐ Add description variable for video notes  
+⭐ Settings option to disable showing created note snack-bar  
+🐛 Fix corner size in compact notes list  
+🐛 Fix over-scrolling in headings list in right drawer
+
+### 3.0.3
+
+⭐ Option to back up and restore fonts  
+🐛 Fix skipping first image while downloading images
+
+### 3.0.2
+
+📌 Increase minSDK to 25  
+⭐ Add 5 and 10 mins for synchronization interval  
+⭐ Add settings option to toggle note divider (Settings > Notes List)  
+⭐ Add support for keywords yaml property of Zettlr for tags  
+🐛 Fix Notes List widget not working
+
+### 3.0.1
+
+🐛 Fix Status Bar color on Android 16
+
+### 3.0.0
+
+⭐ Add Brazilian Portuguese Language  
+⭐ Allow aliases in text shortcuts (separate by space)  
+⭐ Feature to change Repository Icon  
+⭐ Support org mode properties syntax for setting note id  
+🐛 Overwriting note bug on double tap  
+🐛 Fix skipping biometrics from launcher shortcuts (need to create new shortcuts)  
+🐛 Fix Widgets not following filename preference  
+🐛 Fix space in extended tags
+
+### 2.9.9
+
+⭐ Export and Import Draft notes  
+⭐ Improve Log Screen  
+⭐ Option to hide title and change text size in widget  
+⭐ Show UID on long pressing note title in Info Dialog    
+⭐ Show Undo on Checking Task in Task Note  
+⭐ Support parsing org roam id `[[id:fedcba98-7654-3210-fedc-ba9876543210][Linked Note Title]]`  
+⭐ UUID variable for templates and text snippets
+
+### 2.9.8
+
+⭐ Draft Notes (Access via widget, text share, right drawer and editor button)  
+⭐ Password encrypted auto backups (Settings > Backup and Restore)  
+⭐ Settings option to toggle single line for task note  
+🐛 Fix saving note file with empty title  
+🐛 Fix search losing focus in Editor and Viewer  
+🐛 Fix random crash on text selection
+
 ### 2.9.7
 
 ⭐ New Encryption Method: In-App PGP Key Encryption  

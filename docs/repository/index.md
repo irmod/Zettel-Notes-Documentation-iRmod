@@ -89,16 +89,28 @@ The properties are saved in the Zettel Notes configuration folder, under the spe
 ### 2. Mount (`mount`)
 
 - Specifies whether the repository should be accessible via the Android Documents app.
-
-## Mounting internal repositories
-
-Repositories can be assessed via the android [Documents](https://source.android.com/docs/core/ota/modular-system/documentsui) application.
-
-To disable mounting internal repositories, go to `Settings > Security` and disable `Mount internal repositories`.
-
-![mounted repository](../assets/img/repository-mount.png)
+- Mounting internal repositories
+    - Repositories can be assessed via the android [Documents](https://source.android.com/docs/core/ota/modular-system/documentsui) application.
+    - To disable mounting internal repositories, go to `Settings > Security` and disable `Mount internal repositories`.
+    - ![mounted repository](../assets/img/repository-mount.png)
 
 !!! tip
 
     To unmount specific repository, hide the repository in Repository settings.
 
+### 3. Exclude files and folders (`excluded_paths`)
+
+Defines which files and folders should be ignored for this repository. Enter a comma-separated list of patterns, for example: *.tmp,backup/,note-?.md.
+
+Supported patterns:
+
+    * matches any number of characters.
+    Example: *.md matches all Markdown files.
+
+    ? matches exactly one character.
+    Example: note-?.md matches note-1.md or note-a.md, but not note-10.md.
+
+    A pattern ending with / matches a folder and everything inside it.
+    Example: temp/ excludes the temp folder and all its files and subfolders.
+
+Patterns are matched against file and folder paths using / as the separator.
